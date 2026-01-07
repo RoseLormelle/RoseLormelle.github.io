@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const Project = () => {
   return (
     <div>
+      <Navbar />
       <h1>Project</h1>
-      <Link to="/">Retour à Home</Link>
     </div>
   );
 };
